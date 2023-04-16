@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Results summary component</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container-result">
+        <h4>Your Result</h4>
+        <div class="final-score-box">
+          <h1 class="final-score">76</h1>
+          <p class="highest-score">of 100</p>
+        </div>
+        <h3>Great</h3>
+        <p class="message">
+          You scored higher than 65% of the people who have taken these tests!
+        </p>
+      </div>
+
+      <div class="container-summary">
+        <h4>Summary</h4>
+        <div class="summary-slot reaction">
+          <img src="assets/images/icon-reaction.svg" alt="lightning icon" />
+          <p class="skill">Reaction</p>
+          <p class="score">80 <span class="opaque">/ 100</span></p>
+        </div>
+        <div class="summary-slot memory">
+          <img src="assets/images/icon-memory.svg" alt="brain icon" />
+          <p class="skill">Memory</p>
+          <p class="score">92 <span class="opaque">/ 100</span></p>
+        </div>
+        <div class="summary-slot verbal">
+          <img src="assets/images/icon-verbal.svg" alt="dialog box icon" />
+          <p class="skill">Verbal</p>
+          <p class="score">61 <span class="opaque">/ 100</span></p>
+        </div>
+        <div class="summary-slot visual">
+          <img src="assets/images/icon-visual.svg" alt="eye icon" />
+          <p class="skill">Visual</p>
+          <p class="score">73 <span class="opaque">/ 100</span></p>
+        </div>
+        <button class="btn">Continue</button>
+      </div>
+    </div>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        rel="noopener"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Silvia Patricia Soto</a>.
+    </div> -->
+  </body>
+</html>
